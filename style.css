@@ -1,19 +1,45 @@
 body{
-background-color: #e5d5c7;
+background-color: #faedeb;
 }
 
 h1{
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.container.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
 }
 .container{
     display: flex;
     flex-direction: column;
+    margin: 30px auto;
     justify-content: center;
     font-size: 20px;
     align-items: center;
 
 }
 
+header a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 40px;
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: rgb(121, 149, 158);
+    background-color: rgb(166, 187, 187);
+    text-decoration: none;
+}
+
+img{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 a{
     margin: 10px;
     color: black;
@@ -21,4 +47,38 @@ a{
 
 h3{
     text-align: center;
+}
+
+.container .elements{
+    display: inline-block;
+    border: solid;
+    width: 500px;
+    height: auto;
+    padding: 5px 15px;
+    border-color: rgb(121, 149, 158);
+    border-radius: 8px;
+    margin: 16px;
+    background-color: rgb(166, 187, 187);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:none ;
+}
+
+div .ingredients{
+    border: solid 2px;
+    margin: 20px;
+    padding: 20px 50px;
+
+    
+}
+
+.container .elements:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.container .steps li{
+    margin-top: 30px;
 }
